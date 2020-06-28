@@ -13,4 +13,7 @@
 # git checkout master
 # echo "changing permissions..."
 # chown -R $WEB_USER:$WEB_USERGROUP $WEB_PATH
+
+cp auto.js auto2
+
 echo "Finished."
