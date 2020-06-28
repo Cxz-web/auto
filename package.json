@@ -1,11 +1,22 @@
 {
   "name": "auto",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cxz-web/auto.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Cxz-web/auto/issues"
+  },
+  "homepage": "https://github.com/Cxz-web/auto#readme",
+  "description": "",
+  "dependencies": {
+    "github-webhook-handler": "^1.0.0"
+  }
 }
