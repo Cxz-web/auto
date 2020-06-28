@@ -8,13 +8,15 @@ PROJECT_DIST_PATH = '/home/coding/yaoyao/dist'
 
 # echo "Start deployment"
 # cd $WEB_PATH
-# echo "pulling source code..."
+echo "start....."
 cd $PROJECT_PATH
 git checkout . 
 git pull origin master
+echo "pulling source code..."
 npm i 
+echo "npm i..."
 npm run build
-
+echo "npm build...."
 cd $WEB_PATH
 rm -r dist
 
